@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+  }
+  
+  #battle-container {
+    height: 100vh;
+    background-image: url(./images/thom-holmes-P17jU-pnTBY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #inner-container {
+    padding: 30px;
+    width: 70%;
+    background-color: rgba(250, 235, 215, 0.897);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  h1 {
+    color: rgb(250, 235, 215);
+    background-color: rgb(10, 10, 102);
+    padding: 28px;
+    border-radius: 30px;
+  }
+  
+  #button-container {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
